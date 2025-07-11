@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    text-decoration: none;
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.for_screens{
+    max-height: 233.7vh;
+}
+
+body{
+    background: #e6e6e6;
+    overflow: auto;
+background: linear-gradient(177deg, rgba(230, 230, 230, 1) 6%, rgba(255, 255, 255, 1) 65%, rgba(255, 255, 255, 1) 100%);
+}
+
+._1_section{
+    padding: 50px;
+}
+
+#header_container{
+
+    padding: 8px;
+    height: 83vh;
+}
+
+.logo_container{
+    padding-top: 20px;
+}
+
+.logo_mask{
+    display: inline-flex;    
+    margin-left: 90px;
+}
+
+#all_container{
+    padding: 40px;
+    position: absolute;
+}
+
+a{
+    color: rgb(91, 137, 253);
+}
+
+.header_container{
+    width: 400px;
+    display: flex;
+}
+
+#top_screens_container{
+        margin: 5px;
+        float: right;
+}
+#stores_container{
+    float: left;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+.app_stores{
+    width: 228px;
+    padding: 5px;
+}
+.play_stores{
+    width: 220px;
+    padding: 5px;
+}
+
+._1st_title{
+    text-align: center;  
+}
+
+._1st_title .title1{
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 10px;
+    letter-spacing: 5px;
+    font-size: 190%;
+}
+._1st_title .title2{
+    font-size: 190%;
+    display: inline;
+    color: gray;
+}
+
+._2_section{
+    margin-left: 50px;
+    display: flex;
+}
+
+.sec_screens{
+    width: 600px;
+    float: left;
+    margin-left: 7vh;
+}
+
+._2nd_title{
+    margin-left: 0vh;
+}
+.full_title2{
+    margin-top: 23vh;
+}
+
+.full_title3{
+    margin-top: 23vh;
+    margin-left: 10vh;
+}
+
+.title3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 14px;
+    letter-spacing: 4px;
+    font-size: 250%;
+        text-align: center;
+}
+.title4{
+    color: rgb(139, 138, 138);
+    font-family: "Quicksand", sans-serif;
+    padding: 0px;
+        font-size: 220%;
+        font-weight: 500;
+        text-align: center;
+}
+
+#_3_section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#_3_sec_container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.thhh_screens{
+    width: 600px;
+    margin-top: 0vh;
+     margin-right: 10vh;
+}
+
+#full_title3{
+    margin: 0vh;
+    padding-top: 28.5vh;
+    padding-right: 20vh;
+}
+
+._4_section{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+._4_vec_container{
+    padding: 55px;
+    margin-left: 68vh;
+    position: absolute;
+    margin-top: 70px;
+}
+
+._4th_title{
+    padding: 4vh 0px auto 0px;
+    margin-left: 0vh;
+}
+#full_title4{
+    display: flex;
+    letter-spacing: 2px;
+    margin: 33vh 30px auto;
+    padding: 0px;
+}
+
+.for_screens{
+    width: 600px;
+    float: left;
+}
+.vectors{
+    width: 650px;
+}
+
+.iconame{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    width: 100px;
+}
+
+.end_container{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.end_container .end_play_stores{
+    width: 200px;
+    padding-right: 7px;
+}
+.end_container .end_app_stores{
+    width: 200px;
+    padding-left: 7px;
+}
+
+.end_text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: inline-block;
+}
+._2_end_text{
+    padding-right: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+._2_end_text_link{
+    padding-right: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+._2_end_text_link:hover{
+    color: blue;
+}
+
+.Ques_text{
+padding: 5px;
+display: flex;
+justify-content: center;
+}
+.Ques2_text{
+padding: 20px;
+display: flex;
+justify-content: center;
+}
